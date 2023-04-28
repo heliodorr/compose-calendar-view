@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PixelTools</string>
+    <string name="empty_dropdown">Empty :(</string>
+    <string name="ruble_symbol" translatable="false">₽</string>
+
+    <string name="table_header_text">QUERIES</string>
+
+    <string-array name="week_days">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+
+</resources>

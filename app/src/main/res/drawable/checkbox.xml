@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+                android:width="14dp"
+                android:height="14dp"
+                android:viewportWidth="14"
+                android:viewportHeight="14">
+
+                <group android:name="fill" android:pivotX="7" android:pivotY="7">
+                    <path
+                        android:pathData="M2,0.5L12,0.5A1.5,1.5 0,0 1,13.5 2L13.5,12A1.5,1.5 0,0 1,12 13.5L2,13.5A1.5,1.5 0,0 1,0.5 12L0.5,2A1.5,1.5 0,0 1,2 0.5z"
+                        android:fillColor="#E32D35" />
+                </group>
+                <group android:name="stroke">
+                    <path
+                        android:strokeWidth="1"
+                        android:pathData="M2,0.5L12,0.5A1.5,1.5 0,0 1,13.5 2L13.5,12A1.5,1.5 0,0 1,12 13.5L2,13.5A1.5,1.5 0,0 1,0.5 12L0.5,2A1.5,1.5 0,0 1,2 0.5z"
+                        android:strokeColor="#000000"/>
+                </group>
+
+
+                <path android:name="v"
+                    android:pathData="M4,4.5L8,8.5L13.5,3.5"
+                    android:strokeLineJoin="round"
+                    android:strokeWidth="2"
+                    android:fillColor="#00000000"
+                    android:strokeColor="#ffffff"
+                    android:strokeLineCap="round"/>
+
+            </vector>
+        </aapt:attr>
+        <target android:name="fill">
+            <aapt:attr name="android:animation">
+                <set>
+                    <objectAnimator
+                        android:propertyName="scaleX"
+                        android:duration="200"
+                        android:valueFrom="0"
+                        android:valueTo="1"
+                        android:valueType="floatType"
+                        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+                    <objectAnimator
+                        android:propertyName="scaleY"
+                        android:duration="200"
+                        android:valueFrom="0"
+                        android:valueTo="1"
+                        android:valueType="floatType"
+                        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+                </set>
+            </aapt:attr>
+        </target>
+        <target android:name="v">
+            <aapt:attr name="android:animation">
+                <set>
+                    <objectAnimator
+                        android:propertyName="trimPathEnd"
+                        android:duration="150"
+                        android:startOffset="50"
+                        android:valueFrom="0"
+                        android:valueTo="1"
+                        android:valueType="floatType"
+                        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+                </set>
+            </aapt:attr>
+        </target>
+</animated-vector>

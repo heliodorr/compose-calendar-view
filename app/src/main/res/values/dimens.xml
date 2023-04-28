@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="table_data_cell_width">85dp</dimen>
+    <dimen name="table_query_width">200dp</dimen>
+    <dimen name="table_row_height">45dp</dimen>
+    <dimen name="table_side_padding">8dp</dimen>
+</resources>
